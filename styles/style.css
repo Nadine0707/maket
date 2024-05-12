@@ -1,0 +1,47 @@
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    color: rgba(128, 128, 128, 0.588);
+    font-size: 1em;
+}
+
+.nav-item {
+    padding: 25px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    display: grid;
+
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    grid-gap: 10px 10px;
+    justify-items: stretch;
+    align-items: stretch;
+
+}
+
+.imgcontainer {
+    justify-content: flex-end;
+    top: 50px;
+    right: 70px;
+    width: 20%;
+    position: absolute;
+}
+
+.pict {
+    width: 80%;
+    min-width: 80%;
+
+}
